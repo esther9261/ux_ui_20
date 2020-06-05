@@ -1,0 +1,65 @@
+h1{
+  font-family: 'Lobster', cursive;
+  }
+.navbar-brand{ 
+  font-family: 'Lobster', cursive;
+}
+
+  h2,h3, h5, p{
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background-color: transparent !important;
+    background-size: cover;s
+  }
+    .customNav a{
+      color: white !important;
+    }
+
+    
+    .jumbotron{
+      background-image: url(../images/bigsur\ Hero.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 750px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .jumboCopy{
+      width:70%;
+      min-width: 500px;
+      max-width: 700px;
+      color: white;
+      text-align: center;
+    }
+
+  #plane{
+    background-image: url(../images/bookyourflight.png);
+  }
+
+
+
+  .emailContain{
+    background: url(../images/contactus\ background.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height:500px;
+  }
+  form{
+    width: 500px;
+    margin: 35px auto;
+    padding: 45px;
+    color: white;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) insert;
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) insert;
+
+  }
